@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header id="top">
+        <h1>Ellis Spawforth</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#books">Favourite Books</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#manhwa">Favourite Manhwa</a></li>
+                <li><a href="#goals">Goals</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#social">Social Media</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me:</h2>
+            <p>I am a web developer and a book lover. I enjoy reading manhwa. I am attempting to write a series of webnovels in my free time.</p>
+            <blockquote>
+                "Life is sacred and we stand to guard it." - Elaric White
+            </blockquote>
+
+            <img src="the-void-archive.jpg" alt="The Void Archive">
+
+            <h2>My Hobbies:</h2>
+            <ul>
+                <li>Reading</li>
+                <li>Coding</li>
+                <li>Writing</li>
+            </ul>
+
+            <p>Check out my favourite website: <a href="https://www.webnovel.com/" target="_blank">Webnovel</a></p>
+        </section><br>
+
+        <section id="books">
+            <table>
+                <caption>My Favourite Books</caption>
+                <tr>
+                    <th>Book Title</th>
+                    <th>Author</th>
+                    <th>Rating</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>Miracle Card Shop: All My Cards Can Be Actualize</td>
+                    <td>RavenClaw471</td>
+                    <td>9.5/10</td>
+                    <td><a href="https://www.webnovel.com/book/miracle-card-shop-all-my-cards-can-be-actualize_25806140005969105">Found Here</a></td>
+                </tr>
+                <tr>
+                    <td>Tribe: I Become Invincible With My 10,000x Bonus From The Start</td>
+                    <td>Strange Human</td>
+                    <td>9.5/10</td>
+                    <td><a href="https://www.webnovel.com/book/tribe-i-become-invincible-with-my-10-000x-bonus-from-the-start_21276835306035905">Found Here</a></td>
+                </tr>
+            </table>
+        </section><br>
+
+        <section id="skills">
+            <h2>My Skills:</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>MySQL</li>
+                <li>PHP</li>
+            </ul>
+        </section><br>
+
+        <section id="projects">
+            <h2>My Projects:</h2>
+            <ul></ul>
+                <li>Project 1: <a href="https://www.webnovel.com/profile/4322614373">Writing Project</a></li>
+                <li>Project 2: <a href="#top">This Site</a></li>
+                <li>Project 3: <a href="#game-container">JavaScript Game</a></li>
+                <li>Project 3: <a href="../../personal-development-master">Personal Development</a></li>
+            </ul>
+        </section><br>
+
+        <section id="testimonials">
+            <h2>What People Say About Me:</h2>
+            <blockquote>
+                <p>"I've had the pleasure of working with Ellis on several projects." - John Doe</p>
+                <p>"Ellis is a talented developer with a passion for learning." - Jane Smith</p>
+            </blockquote>
+        </section>
+
+        <section id="manhwa">
+            <h2>My Favourite Manhwa:</h2>
+            <ul>
+                <li>Legendary Mechanic</li>
+                <li>Omniscient Reader's Viewpoint</li>
+                <li>The Greatest Estate Developer</li>
+            </ul>
+        </section><br>
+
+        <section id="goals">
+            <h2>My Goal:</h2>
+            <p>I hope to one day be fully proficient in back-end coding. I also hope to learn basic data analytics using R and CyberSecurity.</p>
+        </section><br>
+
+        <section id="game-container">
+            <h2>Games:</h2>
+            <div id="game1">
+                <h3>Rock, Paper, Scissors</h3>
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
+                <p id="result"></p>
+            </div>
+
+            <div id="game2">
+                <h3>Hangman</h3>
+                <p id="hangman-word">_ _ _ _ _ _</p>
+                <p id="hangman-guesses">Guesses: 6</p>
+                <input id="hangman-input" type="text" placeholder="Enter a letter">
+                <button id="hangman-submit">Submit</button>
+
+                <button id="new-game">New Game</button>
+            </div>
+
+            <div id="game3">
+                <h3>Quiz  (WIP)</h3>
+                <p id="quiz-instructions">Answer the following questions to test your knowledge!</p>
+                <div id="quiz-question-container">
+                    <p id="quiz-question"></p>
+                    <ul id="quiz-options">
+                        <li><input type="radio" id="option1" name="answer"><label for="option1">Option 1</label></li>
+                        <li><input type="radio" id="option2" name="answer"><label for="option2">Option 2</label></li>
+                        <li><input type="radio" id="option3" name="answer"><label for="option3">Option 3</label></li>
+                        <li><input type="radio" id="option4" name="answer"><label for="option4">Option 4</label></li>
+                    </ul>
+                    <button id="quiz-submit">Submit</button>
+                </div>
+                <p id="quiz-result"></p>
+                <p id="quiz-score">Score: 0/0</p>
+                <button id="quiz-next-question">Next Question</button>
+            </div>
+        </section><br>
+
+        <section id="certifications">
+            <h2>My Certifications:</h2>
+            <ul>
+                <li>Certification 1: <a href="https://www.sololearn.com/en/Profile/14319407">SoloLearn</a></li>
+                <li>Certification 2: ~~~</li>
+                <li>Certification 3: ~~~</li>
+            </ul>
+        </section><br>
+
+        <section id="social">
+            <h2>My Social Media:</h2>
+            <ol>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">LinkedIn</a></li>
+                <li><a href="">GitHub</a></li>
+            </ol>
+        </section><br>
+    </main>
+
+    <footer>
+        <p>Contact me at espawforth@gmail.com</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

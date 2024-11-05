@@ -1,0 +1,75 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Form Styles */
+form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+  
+button[type="button"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="button"]:hover {
+    background-color: #3e8e41;
+}
+
+/* To-Do List Styles */
+#todo-list, #completed-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#todo-list li, #completed-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#todo-list li:last-child, #completed-list li:last-child {
+    border-bottom: none;
+}
+#completed-list {
+    color: #666;
+    text-decoration: line-through;
+}
+
+/* Remove Button Styles */
+.remove-button {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.remove-button:hover {
+    background-color: #ff3737;
+}

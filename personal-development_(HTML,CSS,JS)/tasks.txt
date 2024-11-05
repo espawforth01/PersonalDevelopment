@@ -1,0 +1,82 @@
+Task 1: Create a Personal Portfolio Page
+HTML: Structure a simple webpage with sections like About Me, Skills, Projects, and Contact.
+CSS: Style the page with colors, fonts, and layout to make it visually appealing.
+JavaScript: Add a button that, when clicked, reveals a hidden section with more information about a specific project.
+
+Complete: In Progress   Link: portfolio/portfolio.html
+
+Task 2: Build a Simple To-Do List
+HTML: Create a form with an input field and a button to add tasks to the list.
+CSS: Style the list with different colors for completed and pending tasks.
+JavaScript: Implement functionality to add tasks, mark them as completed, and remove them from the list.
+
+Complete: Yes   Link: to-do-list/to-do.html
+
+Task 3: Create a Basic Quiz Application
+HTML: Structure a quiz with questions and multiple-choice answers.
+CSS: Style the quiz layout and provide feedback for correct/incorrect answers.
+JavaScript: Implement logic to track the score and display the results at the end of the quiz.
+
+Complete: Yes   Link: quiz/quiz.html
+
+Task 4: Develop a Simple Calculator
+HTML: Create a layout with buttons for numbers and operations (addition, subtraction, etc.).
+CSS: Style the calculator for a clean and user-friendly interface.
+JavaScript: Write the logic to perform calculations based on user input and display the result.
+
+Complete: Yes   Link: simple-calculator/calc.html
+Additional Link: scientific-calculator/calc.html
+
+Task 5: Create an Image Gallery
+HTML: Use <img> tags to display a collection of images.
+CSS: Style the gallery with a grid layout and hover effects for the images.
+JavaScript: Add functionality to click on an image to view it in a larger format or in a modal.
+
+Complete: Yes   Link: image-gallery/gallery.html
+
+Additional Task:
+Use as a base to create a full wiki style page dedicated to 'The Void Archive' written universe.
+Possibly implement SQL and php to achive this.
+Use this to add more information about characters, settings, etc.
+Maybe also add in variation to image sizes on the gallery page to make it more unique.
+
+Task 6: Build a Countdown Timer
+HTML: Create a simple layout with input fields for the timer duration and a start button.
+CSS: Style the timer display and buttons.
+JavaScript: Implement the countdown logic and update the display every second.
+
+Complete: Yes   Link: countdown-timer/timer.html
+
+Task 7: Create a Responsive Navigation Menu
+HTML: Structure a navigation menu with links to different sections of your site.
+CSS: Style the menu and make it responsive for different screen sizes.
+JavaScript: Add functionality to toggle the menu visibility on smaller screens.
+
+Complete: Yes   Link: responsive-nav/resp-nav.html
+
+Task 8: Develop a Basic Weather App
+HTML: Create a form for users to input a city name.
+CSS: Style the app to display weather information nicely.
+JavaScript: Use the Fetch API to retrieve weather data from a public API and display it on the page.
+
+Complete: Yes   Link: weather-app/weather.html
+
+Task 9: Create a Flashcard App
+HTML: Structure the app with a way to display questions and answers.
+CSS: Style the flashcards for easy readability.
+JavaScript: Implement functionality to flip the cards and track which cards have been answered correctly.
+
+Complete: Yes   Link: flashcards/flashcards.html
+
+Additional Task:
+Add additional questions and answers to each .js file
+Add a keywords category to display keywords and their meaning
+Possibly add button(s) to change scripts on a cycle
+Maybe upgrade to a php and sql application
+
+Task 10: Build a Simple Game (e.g., Rock, Paper, Scissors)
+HTML: Create buttons for the user to select rock, paper, or scissors.
+CSS: Style the game interface and result display.
+JavaScript: Write the game logic to determine the winner based on user input and display the result.
+
+Complete: Yes   Link: portfolio/portfolio.html/game-container

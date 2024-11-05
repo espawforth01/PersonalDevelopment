@@ -1,0 +1,82 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navigation Styles */
+.nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.nav-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links li {
+    margin-right: 20px;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.nav-links a:hover {
+    color: #ccc;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .nav-toggle {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
+    .nav-toggle span {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+        margin-bottom: 5px;
+    }
+    .nav-links.show {
+        display: block;
+    }
+    .nav-links.hide {
+        display: none;
+    }
+}

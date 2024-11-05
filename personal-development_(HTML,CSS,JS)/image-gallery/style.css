@@ -1,0 +1,64 @@
+/* Style the gallery with a grid layout */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+.gallery-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.gallery-image:hover {
+    transform: scale(1.1);
+}
+
+/* Style the modal for displaying large images */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+#image-modal-caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #fff; /* Changed from #ccc to #fff for better contrast */
+    font-size: 18px; /* Increased font size for better readability */
+    padding: 20px; /* Increased padding for more breathing room */
+    height: auto; /* Changed from 150px to auto to accommodate varying caption lengths */
+    background-color: rgba(0, 0, 0, 0.5); /* Added a dark background to improve contrast */
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

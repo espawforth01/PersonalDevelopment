@@ -1,0 +1,397 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: #444;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #555;
+}
+
+#about {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+#about h2 {
+    color: #333;
+}
+#about p {
+    color: #666;
+}
+
+#skills {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+#skills h2 {
+    color: #333;
+}
+#skills ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#skills li {
+    margin-bottom: 10px;
+}
+
+#projects {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#projects a {
+    text-decoration: underline;
+    color: #333;
+}
+#projects a:hover {
+    color: #343434;
+}
+#projects a:visited {
+    color: #777;
+}
+#projects ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#projects li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#projects li:last-child {
+    border-bottom: none;
+}
+
+#testimonials {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#testimonials blockquote {
+    font-style: italic;
+    font-size: 18px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#testimonials blockquote p {
+    margin-bottom: 20px;
+}
+
+#books {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+#books caption {
+    color: #333;
+}
+#books table {
+    border-collapse: collapse;
+    width: 100%;
+}
+#books th, #books td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+#books th {
+    background-color: #f0f0f0;
+}
+
+#manhwa {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#manhwa ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#manhwa li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#manhwa li:last-child {
+    border-bottom: none;
+}
+
+#goals {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+#goals h2 {
+    color: #333;
+}
+#goals p {
+    color: #666;
+}
+
+#game-container {
+    background-color: #f0f0f0; /* A light gray background to match the site's style */
+    padding: 20px; /* Add some padding to make the content more readable */
+    border: 1px solid #ddd; /* A light gray border to separate the section from the rest of the content */
+    border-radius: 10px; /* Add a slight curve to the corners to make the section more visually appealing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to give the section some depth */
+}
+#game-container h2 {
+    margin-top: 0; /* Remove the top margin to make the heading stick to the top of the section */
+}
+#game-container h3 {
+    color: #333;
+}
+#game-container div {
+    border-bottom: 1px dashed #23527c;
+}
+#game-container div:last-child {
+    border-bottom: none;
+}
+
+#game1 {
+    text-align: center; /* Center the game buttons and result text */
+}
+#game1 button {
+    margin: 10px; /* Add some space between the buttons */
+    padding: 10px 20px; /* Make the buttons a bit larger and more clickable */
+    border: none; /* Remove the default button border */
+    border-radius: 5px; /* Add a slight curve to the button corners */
+    background-color: #786C3B; /* A green background to make the buttons stand out */
+    color: #fff; /* White text to make the button labels readable */
+    cursor: pointer; /* Change the cursor to a pointing hand to indicate that the buttons are clickable */
+}
+#game1 button:hover {
+    background-color: #655935; /* A darker green background to indicate that the button is being hovered over */
+}
+#result {
+    font-size: 18px; /* Make the result text a bit larger and more readable */
+    font-weight: bold; /* Make the result text bold to make it stand out */
+    margin-top: 20px; /* Add some space between the buttons and the result text */
+}
+
+#game2 {
+    text-align: center;
+}
+
+#game3 {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+#quiz-instructions {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#quiz-question-container {
+    margin-bottom: 20px;
+}
+#quiz-question {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#quiz-options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#quiz-options li {
+    margin-bottom: 10px;
+}
+#quiz-options input[type="radio"] {
+    margin-right: 10px;
+}
+#quiz-options label {
+    font-size: 16px;
+}
+#quiz-submit {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#quiz-submit:hover {
+    background-color: #3e8e41;
+}
+
+#quiz-result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#quiz-score {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#quiz-next-question {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#quiz-next-question:hover {
+    background-color: #3e8e41;
+}
+
+#certifications {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#certifications a {
+    text-decoration: underline;
+    color: #333;
+}
+#certifications a:hover {
+    color: #343434;
+}
+#certifications a:visited {
+    color: #777;
+}
+#certifications ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#certifications li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#certifications li:last-child {
+    border-bottom: none;
+}
+
+#social {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#social a {
+    text-decoration: underline;
+    color: #333;
+}
+#social a:hover {
+    color: #343434;
+}
+#social a:visited {
+    color: #777;
+}
+#social ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#social li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#social li:last-child {
+    border-bottom: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* Header and navigation */
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+    nav ul {
+      flex-direction: column;
+    }
+    nav li {
+      margin-bottom: 10px;
+    }
+    nav a {
+      font-size: 18px;
+    }
+  
+    /* Main content sections */
+    main section {
+      padding: 20px;
+    }
+    main section h2 {
+      font-size: 24px;
+    }
+    main section ul {
+      list-style: none;
+      padding: 0;
+    }
+    main section li {
+      margin-bottom: 10px;
+    }
+  
+    /* Footer */
+    footer {
+      text-align: center;
+    }
+    footer p {
+      font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    /* Header and navigation */
+    nav ul {
+      font-size: 16px;
+    }
+    nav a {
+      font-size: 16px;
+    }
+  
+    /* Main content sections */
+    main section h2 {
+      font-size: 20px;
+    }
+    main section ul {
+      padding: 10px;
+    }
+    main section li {
+      margin-bottom: 5px;
+    }
+  
+    /* Footer */
+    footer p {
+      font-size: 16px;
+    }
+}
