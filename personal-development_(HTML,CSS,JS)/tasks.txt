@@ -3,7 +3,7 @@ HTML: Structure a simple webpage with sections like About Me, Skills, Projects, 
 CSS: Style the page with colors, fonts, and layout to make it visually appealing.
 JavaScript: Add a button that, when clicked, reveals a hidden section with more information about a specific project.
 
-Complete: In Progress   Link: portfolio/portfolio.html
+Complete: Yes   Link: portfolio/portfolio.html
 
 Task 2: Build a Simple To-Do List
 HTML: Create a form with an input field and a button to add tasks to the list.
