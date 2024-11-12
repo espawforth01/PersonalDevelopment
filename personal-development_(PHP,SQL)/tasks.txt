@@ -1,0 +1,72 @@
+Task 1: User Registration System:
+Create a registration form using PHP that collects user data (username, password, email) and stores it securely in a MySQL database.
+Implement password hashing for security.
+
+Complete: Yes   Link: blog-system/register.php
+
+Task 2: Login System:
+Develop a login page that verifies user credentials against stored records in the database.
+Use sessions to maintain user authentication across different pages.
+
+Complete: In Progress   Link: blog-system/digitalFrontier.php
+
+Task 3: Content Management System (CMS):
+Build a simple CMS where users can create, read, update, and delete (CRUD) articles.
+Use PHP to handle the backend logic and SQL to interact with the database for storing articles.
+
+Complete: In Progress   Link: blog-system/digitalFrontier.php
+
+Task 4: Search Functionality:
+Implement a search feature that allows users to search for articles or products in a database.
+Use SQL queries to filter results based on user input.
+
+Complete: In Progress   Link: blog-system/digitalFrontier.php
+
+Task 5: Data Visualization:
+Create a dashboard that retrieves data from the database using SQL queries and displays it in graphical formats (like charts or tables) using PHP and JavaScript libraries (e.g., Chart.js).
+
+Complete: No   Link: 
+
+Task 6: E-commerce Shopping Cart:
+Develop a shopping cart system where users can add products to their cart, view the cart, and proceed to checkout.
+Use PHP for the cart logic and SQL to manage product inventory and orders.
+
+Complete: No   Link: 
+
+Task 7: Comment System:
+Build a commenting feature for blog posts or articles where users can submit comments.
+Store comments in a database and display them under the relevant posts using PHP and SQL.
+
+Complete: In Progress   Link: blog-system/digitalFrontier.php
+
+Task 8: User Profile Management:
+Create a user profile page that allows users to view and update their personal information.
+Use PHP to handle form submissions and SQL to update the database.
+
+Complete: In Progress   Link: blog-system/digitalFrontier.php
+
+Task 9: File Upload with Database Entry:
+Implement a file upload feature that allows users to upload images or documents.
+Store the file paths in a MySQL database along with other relevant information.
+
+Complete: No   Link: 
+
+Task 10: Data Export to CSV:
+Create a feature that allows users to export data from the database (like user lists or product details) into a CSV file.
+Use PHP to generate the CSV from SQL query results.
+
+Complete: No   Link: 
+
+
+Additional Task 1:
+Use image-gallery folder as a base to create a full wiki style page dedicated to 'The Void Archive' written universe.
+Possibly implement SQL and php to achive this.
+Use this to add more information about characters, settings, etc.
+Maybe also add in variation to image sizes on the gallery page to make it more unique.
+
+Additional Task 2:
+Use flashcards folder as a base.
+Add additional questions and answers to each .js file
+Add a keywords category to display keywords and their meaning
+Possibly add button(s) to change scripts on a cycle
+Maybe upgrade to a php and sql application
